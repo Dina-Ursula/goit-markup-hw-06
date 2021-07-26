@@ -607,7 +607,7 @@ body {
 .footer-form-container {
   display: inline-block;
   margin-left: 93px;
-  margin-bottom: 161px;
+  margin-bottom: 94px;
 }
 .follower {
   width: 219px;
@@ -703,6 +703,8 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+.icon-cose {
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -731,6 +733,10 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 50%;
+  transition: fill var(--animation-hover);
+}
+.close-menu:hover {
+  fill: var(--accent-color-focus);
 }
 .contact-form {
   width: 448px;
