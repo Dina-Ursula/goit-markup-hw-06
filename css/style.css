@@ -485,13 +485,14 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 72px;
   margin-right: auto;
   margin-left: auto;
   background-color: var(--hero-background-color);
 }
-
+.address {
+  margin-bottom: 60px;
+}
 .logo-style {
   color: #2196f3;
 }
